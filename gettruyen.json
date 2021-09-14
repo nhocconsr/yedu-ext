@@ -25,9 +25,9 @@
           "wordCount": "class.flex.tag.span.1@text"
         },
         "ruleContent": {
-          "content": "id.content@html##\\s*{{chapter.title}}\\s*",
+          "content": "class.content@html",
           "imageStyle": "full",
-          "nextContentUrl": "text.下一页@href",
+          "nextContentUrl": "text.Next →@href",
           "replaceRegex": "##温馨提示.*畅读.*|\\s+记住收藏保存.*阅读.\\s+|加QQ.*谢谢配合|有问题，催更可以加客服QQ|『加入书签，方便阅读』|\\s*-->> 本章未完.*\\s*",
           "sourceRegex": "",
           "webJs": ""
