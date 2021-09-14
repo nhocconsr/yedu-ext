@@ -1,0 +1,23 @@
+[
+  {
+    "bookSourceGroup": "阅读3.0有声源",
+    "bookSourceName": "评书吧",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://m.pingshu8.com",
+    "bookUrlPattern": "",
+    "customOrder": 43,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "袁阔成::https://m.pingshu8.com/ms/33_{{page}}.html\n单田芳::https://m.pingshu8.com/ms/7_{{page}}.html\n田连元::https://m.pingshu8.com/ms/27_{{page}}.html\n田战义::https://m.pingshu8.com/ms/28_{{page}}.html\n张少佐::https://m.pingshu8.com/ms/38_{{page}}.html\n连丽如::https://m.pingshu8.com/ms/13_{{page}}.html\n郭德纲::https://m.pingshu8.com/ms/63_{{page}}.html\n最新更新::https://m.pingshu8.com/ms/n_1_{{page}}.html\n评书排行榜::https://m.pingshu8.com/top/h_1_{{page}}.html\n有声小说排行榜::https://m.pingshu8.com/top/h_3_{{page}}.html\n相声排行榜::https://m.pingshu8.com/top/h_2_{{page}}.html\n综艺节目排行榜::https://m.pingshu8.com/top/h_5_{{page}}.html\n",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": "{\n  \"author\": \"class.info@tag.span@text##,.*\",\n  \"coverUrl\": \"tag.img@src\",\n  \"intro\": \"class.book_intro@text\",\n  \"kind\": \"class.info@tag.span.1@text\",\n  \"lastChapter\": \"class.info@tag.span.3@text\",\n  \"name\": \"\",\n  \"tocUrl\": \"\",\n  \"wordCount\": \"class.info@tag.span.2@text\"\n}",
+    "ruleContent": "{\n  \"content\": \"id.jp_audio_0@src\",\n  \"nextContentUrl\": \"\"\n}",
+    "ruleExplore": "{}",
+    "ruleSearch": "{\n  \"author\": \"class.peo@text\",\n  \"bookList\": \"class.top_list@tag.a\",\n  \"bookUrl\": \"tag.a@href\",\n  \"coverUrl\": \"\",\n  \"kind\": \"\",\n  \"lastChapter\": \"\",\n  \"name\": \"tag.a@text\"\n}",
+    "ruleToc": "{\n  \"chapterList\": \"id.playlist@tag.li\",\n  \"chapterName\": \"tag.a@text\",\n  \"chapterUrl\": \"tag.a@href@js:result+',{webView:“true”}'\",\n  \"nextTocUrl\": \"\"\n}",
+    "searchUrl": "https://m.pingshu8.com/search/1.asp?keyword={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }
+
+]
