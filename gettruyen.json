@@ -18,11 +18,11 @@
           "coverUrl": "[property=\"og:image\"]@content",
           "init": "",
           "intro": "class.leading-normal.tag.p@text",
-          "kind": "calss.flex.tag.a.0@text",
+          "kind": "calss.text-white.flex.tag.a.0@text",
           "lastChapter": "Demo",
           "name": "tag.h1@text",
           "tocUrl": "",
-          "wordCount": "class.flex.tag.span.1@text"
+          "wordCount": "class.text-white.flex.tag.span.1@text"
         },
         "ruleContent": {
           "content": "class.content@html",
