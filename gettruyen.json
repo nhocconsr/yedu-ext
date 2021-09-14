@@ -36,7 +36,7 @@
           "author": "",
           "bookList": "class.gap-y-4@a",
           "bookUrl": "tag.a.0@href",
-          "coverUrl": "tag.a.0@href<js>\nvar id = result.match(/\\/(\\d+)\\./)[1];\nvar iid = parseInt(id/1000);\n'https://m.ikshu8.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+          "coverUrl": "class.bg-cover@style<js>\nresult.split(/[()]/)[1];\n</js>",
           "intro": "",
           "kind": "class.s1@text",
           "lastChapter": "class.s3@text",
