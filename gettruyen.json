@@ -39,8 +39,8 @@
           "coverUrl": "class.bg-cover@style<js>\nresult.split(/[()]/)[1];\n</js>",
           "intro": "",
           "kind": "class.s1@text",
-          "lastChapter": "class.s3@text",
-          "name": "tag.a.0@text",
+          "lastChapter": "class.text-green-500@text",
+          "name": "tag.h4.0@text",
           "wordCount": "class.s5@text"
         },
         "ruleSearch": {
