@@ -1,47 +1,68 @@
 [
   {
-    "bookSourceComment": "",
-    "bookSourceGroup": "🏆精品",
-    "bookSourceName": "🎉 AE言情",
+    "bookSourceComment": "haxc",
+    "bookSourceGroup": "",
+    "bookSourceName": "🍒 爱看书吧m",
     "bookSourceType": 0,
-    "bookSourceUrl": "https://m.fmias.com",
-    "customOrder": 28,
+    "bookSourceUrl": "https://m.ikshu8.com",
+    "bookUrlPattern": "",
+    "customOrder": -38912,
     "enabled": true,
     "enabledExplore": true,
-    "exploreUrl": "                    排行榜单                    ::\n周点击榜::/rank/weekvisit/\n月点击榜::/rank/monthvisit/\n总点击榜::/rank/allvisit/\n总收藏榜::/rank/goodnum/\n                    分类最新                    ::\n玄幻奇幻::/xclass/xuanhuan/{{page}}.html\n武侠仙侠::/xclass/wuxia/{{page}}.html\n言情都市::/xclass/dushi/{{page}}.html\n穿越历史::/xclass/lishi/{{page}}.html\n科幻灵异::/xclass/kehuan/{{page}}.html\n同人网游::/xclass/youxi/{{page}}.html\n悬疑推理::/xclass/tuili/{{page}}.html\n其他类型::/xclass/qita/{{page}}.html\n                    分类完本                    ::\n玄幻奇幻::/quanben/xclass/xuanhuan/{{page}}.html\n武侠仙侠::/quanben/xclass/wuxia/{{page}}.html\n言情都市::/quanben/xclass/dushi/{{page}}.html\n穿越历史::/quanben/xclass/lishi/{{page}}.html\n科幻灵异::/quanben/xclass/kehuan/{{page}}.html\n同人网游::/quanben/xclass/youxi/{{page}}.html\n悬疑推理::/quanben/xclass/tuili/{{page}}.html\n其他类型::/quanben/quanben/xclass/qita/{{page}}.html",
-    "lastUpdateTime": 1620841489578,
+    "exploreUrl": "玄幻小说::/list/1/{{page}}.html\n仙侠小说::/list/2/{{page}}.html\n都市小说::/list/3/{{page}}.html\n历史小说::/list/4/{{page}}.html\n科幻小说::/list/5/{{page}}.html\n网游小说::/list/6/{{page}}.html\n完本小说::/wanben/{{page}}",
+    "header": "",
+    "lastUpdateTime": 1612459219087,
+    "loginUrl": "",
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
       "coverUrl": "[property=\"og:image\"]@content",
-      "intro": "[property=\"og:description\"]@content",
-      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
-      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "init": "",
+      "intro": "class.desc@text",
+      "kind": "[property=\"og:novel:category\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content##{{book.name}}",
       "name": "[property=\"og:novel:book_name\"]@content",
-      "tocUrl": "text.章节目录@href"
+      "tocUrl": "",
+      "wordCount": "class.blue.0@text##字数："
     },
     "ruleContent": {
-      "content": "#booktxt@html",
-      "nextContentUrl": "text.下一页@href##$##,{\"webView\":true}",
-      "replaceRegex": ""
+      "content": "id.content@html##\\s*{{chapter.title}}\\s*",
+      "imageStyle": "full",
+      "nextContentUrl": "text.下一页@href",
+      "replaceRegex": "##温馨提示.*畅读.*|\\s+记住收藏保存.*阅读.\\s+|加QQ.*谢谢配合|有问题，催更可以加客服QQ|『加入书签，方便阅读』|\\s*-->> 本章未完.*\\s*",
+      "sourceRegex": "",
+      "webJs": ""
     },
-    "ruleExplore": {},
+    "ruleExplore": {
+      "author": "class.s4@text",
+      "bookList": "class.txt-list@li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href<js>\nvar id = result.match(/\\/(\\d+)\\./)[1];\nvar iid = parseInt(id/1000);\n'https://m.ikshu8.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+      "intro": "",
+      "kind": "class.s1@text",
+      "lastChapter": "class.s3@text",
+      "name": "tag.a.0@text",
+      "wordCount": "class.s5@text"
+    },
     "ruleSearch": {
-      "author": "tag.a.2@text",
-      "bookList": ".content dl",
-      "bookUrl": "tag.a.1@href",
-      "coverUrl": "tag.img@data-original",
-      "intro": "tag.dd.0@text",
-      "kind": "tag.span.0@text",
-      "name": "tag.a.1@text",
-      "wordCount": "tag.span.1@text"
+      "author": "tag.td.2@text##作者：",
+      "bookList": "tag.tbody@tag.tr!0",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.a.1@href##.*/(\\d+)_(\\d+)/.*##/files/article/image/$1/$2/$2s.jpg",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text",
+      "wordCount": "tag.td.3@text##大小："
     },
     "ruleToc": {
-      "chapterList": ".mt0 li",
-      "chapterName": "tag.a@text",
-      "chapterUrl": "tag.a@href##$##,{\"webView\":true}",
-      "nextTocUrl": "option@value"
+      "chapterList": "class.section-list.1@li@a",
+      "chapterName": "text##[\\(（【].*[求更订谢乐发推].*",
+      "chapterUrl": "href",
+      "isVip": "",
+      "nextTocUrl": "@js:if(result.match(/共\\d+页/))\n{var n=parseInt(result.match(/共(\\d+)页/)[1]);\nvar list=[];\nvar url=baseUrl.match(/\\d{3,}/);\nfor(var i=2;i<=n;i++)\n{list.push(url+\"/\"+i+\"/\");}\nlist}",
+      "updateTime": ""
     },
-    "searchUrl": "/search4301.html?searchkey={{key}}",
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
     "weight": 0
   },
 
