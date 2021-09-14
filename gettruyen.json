@@ -33,15 +33,15 @@
           "webJs": ""
         },
         "ruleExplore": {
-          "author": "",
+          "author": "Nhocconsr",
           "bookList": "class.gap-y-4@a",
           "bookUrl": "tag.a.0@href",
           "coverUrl": "class.bg-cover@style<js>\nresult.split(/[()]/)[1];\n</js>",
-          "intro": "",
-          "kind": "class.s1@text",
+          "intro": "không có gì cả",
+          "kind": "TK",
           "lastChapter": "class.text-green-500@text",
-          "name": "tag.h4.0@text",
-          "wordCount": "class.s5@text"
+          "name": "tag.h4@text",
+          "wordCount": "5K"
         },
         "ruleSearch": {
           "author": "tag.td.2@text##作者：",
