@@ -14,15 +14,15 @@
         "lastUpdateTime": 1612459219087,
         "loginUrl": "",
         "ruleBookInfo": {
-          "author": "[property=\"og:novel:author\"]@content",
+          "author": "class.text-sm.tag.div.1@text##Tác giả: ",
           "coverUrl": "[property=\"og:image\"]@content",
           "init": "",
           "intro": "class.leading-normal.tag.p@text",
           "kind": "calss.flex.tag.a.0@text",
-          "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content##{{book.name}}",
+          "lastChapter": "Demo",
           "name": "tag.h1@text",
           "tocUrl": "",
-          "wordCount": "class.felx.tag.span.1@text##Số chữ ："
+          "wordCount": "class.felx.tag.span.1@text"
         },
         "ruleContent": {
           "content": "id.content@html##\\s*{{chapter.title}}\\s*",
