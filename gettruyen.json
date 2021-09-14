@@ -22,7 +22,7 @@
           "lastChapter": "Demo",
           "name": "tag.h1@text",
           "tocUrl": "",
-          "wordCount": "class.felx.tag.span.1@text"
+          "wordCount": "class.flex.tag.span.1@text"
         },
         "ruleContent": {
           "content": "id.content@html##\\s*{{chapter.title}}\\s*",
