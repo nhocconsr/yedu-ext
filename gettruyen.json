@@ -20,9 +20,9 @@
           "intro": "class.leading-normal.tag.p@text",
           "kind": "calss.flex.tag.a.0@text",
           "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content##{{book.name}}",
-          "name": "[property=\"og:novel:book_name\"]@content",
+          "name": "tag.h1@text",
           "tocUrl": "",
-          "wordCount": "class.blue.0@text##字数："
+          "wordCount": "class.felx.tag.span.1@text##Số chữ ："
         },
         "ruleContent": {
           "content": "id.content@html##\\s*{{chapter.title}}\\s*",
