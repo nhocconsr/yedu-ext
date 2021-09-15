@@ -15,24 +15,24 @@
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.media-body@class.col-md-4.0@text",
-      "coverUrl": "class.media-left@img@src",
+      "coverUrl": "class.first@img@src",
       "init": "",
-      "intro": "class.book-detail@text",
-      "kind": "class.media-body@class.col-md-4.6@text&&\nclass.media-body@class.col-md-4.1@text&&\nclass.media-body@class.col-md-4.2@text##状态：|类型：",
+      "intro": "class.desc@text",
+      "kind": "class.list-cate@text&&\nclass.status@text&&\nclass.update_time@text##状态：|类型：",
       "lastChapter": "class.media-body@tag.a.1@text##免费章节 |正文卷 |正文 |VIP章节 ",
-      "name": "class.media-body@h1@text"
+      "name": "class.heading_comic@text"
     },
     "ruleContent": {
       "content": "id.cont-text@html||class.img-body@html##src.*\\\"\n@js:result.replace(/data-original/g,\"src\")",
       "imageStyle": "FULL",
-      "nextContentUrl": "<js>\ntry{\neval(result.match(/(var shortname[\\s\\S]+?)function[\\s\\S]+?<\\/script>/)[1]);\nif(npage!=totalpage){\nif(displaytype=='st' && namehand!='')\nresult=namehand+\"_\"+(npage+1)+shortname;\nelse result=\"view.php?aid=\"+cid+\"&pageno=\"+(npage+1);\n}else result=\"\";\n}catch(e){result=java.getString(\"class.col-md-6 text-center@tag.a.2@href\",true)}\n</js>",
+      "nextContentUrl": "",
       "webJs": ""
     },
     "ruleExplore": {
       "author": "class.intro.row_two@text",
       "bookList": "class.wc_comic_list.wc_item",
       "bookUrl": "tag.a.0@href",
-      "coverUrl": "tag.a.0.tag.div.tag.img@src",
+      "coverUrl": "tag.a.0@img@src",
       "intro": "class.row_one.tag.span.0@text",
       "name": "class.intro.row_two@text"
     },
@@ -40,7 +40,7 @@
       "author": "tag.td.1@text",
       "bookList": "class.table-condensed@tag.tr!0",
       "bookUrl": "tag.a.0@href",
-      "lastChapter": "tag.a.0@href<js>java.ajax('https://www.20dcr.com'+result)</js>class.media-body@tag.a.1@text##免费章节 |正文卷 |正文 |VIP章节 ",
+      "lastChapter": " ",
       "name": "tag.a.0@title"
     },
     "ruleToc": {
@@ -48,7 +48,7 @@
       "chapterName": "text",
       "chapterUrl": "href"
     },
-    "searchUrl": "https://www.20dcr.com/plus/search.php?keyword={{key}}&PageNo={{page}}",
+    "searchUrl": "",
     "weight": 0
   }
 ]
