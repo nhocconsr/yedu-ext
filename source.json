@@ -50,5 +50,5 @@
     },
     "searchUrl": "https://www.20dcr.com/plus/search.php?keyword={{key}}&PageNo={{page}}",
     "weight": 0
-  },
+  }
 ]
